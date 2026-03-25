@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(132, 243, 206);
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: red;
+    padding: 20px;
+    border-radius: 10px;
+
+    animation: bgchange 5s infinite;
+}
+
+@keyframes bgchange {
+    0%   { background-color: rgb(132, 243, 206); }
+    25%  { background-color: lightblue; }
+    50%  { background-color: lightgreen; }
+    75%  { background-color: pink; }
+    100% { background-color: rgb(132, 243, 206); }
+}
+h1, p, h2 , h3, h4, h5, h6 {
+    color: blue;
+    text-align: center;
+    
+   
+    border-radius: 5px;
+    animation: bgchanges 1s infinite;
+}
+
+@keyframes bgchanges {
+    25%  { color: lightblue; }
+    50%  { color: rgb(224, 16, 5); }
+    75%  { color: rgb(41, 18, 193); }
+    0%   { color: rgb(13, 244, 28); }
+    100% { color: rgb(228, 8, 213); }
+}
+
+video, audio ,img, iframe {
+    display: block;
+    align-items: center;
+    margin: 20px auto;
+    border-radius: 10px;
+}
